@@ -30,6 +30,7 @@ public class LoginTestCRM extends BaseClass{
 		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
 		loginPage.loginToCRM(user, pwd);
 		
+		//End Test Result
 		log.pass("Login successfull.");
 	}
 
